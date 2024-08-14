@@ -259,7 +259,7 @@ def main():
                 folder_id = f.read()
         except FileNotFoundError:
             print_err(
-                "Couldn't find 'id.txt' file in this directory. Make sure you correctly initialized the Google Drive Connection"
+                "Couldn't find '.id' file in this directory. Make sure you correctly initialized the Google Drive Connection"
             )
             return
         os.chdir(os.path.dirname(__file__))

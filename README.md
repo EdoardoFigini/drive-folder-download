@@ -6,7 +6,7 @@ This script checks for new version of files and notifies you of any change made 
 
 ## Usage
 
-- create a `id.txt` file in the local folder you want to house the remote files
+- create a text file in the local folder you want to house the remote files and save it as `.id`
 
 - put the 32 character long drive folder id in the file (you can find it at the end of a drive url)
 
@@ -15,3 +15,5 @@ This script checks for new version of files and notifies you of any change made 
   ```
   $ python /path/to/drive_folder_download.py 
   ```
+
+  - follow google's authorization steps in the browser 
